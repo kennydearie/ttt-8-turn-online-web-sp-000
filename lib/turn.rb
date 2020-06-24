@@ -33,7 +33,7 @@ def turn(board)
 if valid_move?(board,0)
   return(true) 
  
-else position_taken?(board,0)
+else #position_taken?(board,0)
   board[index] == "X" || board[index] == "O"
   
    return(display_board)
