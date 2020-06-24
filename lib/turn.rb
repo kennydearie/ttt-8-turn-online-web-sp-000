@@ -32,12 +32,12 @@ def turn(board)
   bob = input_to_index(user_input)
 if valid_move?(board,bob)
   move(board, bob) 
- 
-else position_taken?(board,0)
+ else 
  
   
-   return(display_board)
+   
   end
+  (display_board)
 end
  
  
